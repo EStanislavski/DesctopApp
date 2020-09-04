@@ -265,20 +265,22 @@ span.heading2{
 .analytics{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .image-column{
     display: flex;
-    flex: 50%;
+    width: 40%;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .text-column{
     display: flex;
-    flex: 50%;
+    width: 40%;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-left: 10px;
     
 }
 
