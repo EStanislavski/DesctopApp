@@ -69,7 +69,6 @@ h3{
 
 h4{
     font-family: 'Roboto', sans-serif;
-    font-style: italic;
     font-size: 14px;
     font-weight: 300;
     color: #575757;
@@ -326,6 +325,7 @@ span.heading2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
 .analytics-screen::after{
@@ -609,4 +609,62 @@ li.target span::before{
 
 .price-button.button-block a::after{
     float: right;
+}
+
+.footer{
+    display: grid;
+    justify-items: center;
+    align-items: baseline;
+    grid-template: auto / 2fr repeat(4, 1fr);
+    justify-content: center;
+    align-content: center;
+    padding-top: 100px;
+    margin-bottom: 100px;
+    border-top: rgba(21, 101, 216, 0.5);
+}
+ul.footer{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+ul.footer li a{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #183B56;
+}
+
+.footer-menu-items.first a{
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 70%;
+}
+
+span.footer-logo{
+    color: #1565D8;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+span.heading{
+    color: #5A7184;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
 }
