@@ -94,7 +94,7 @@ span.heading2{
     justify-content: space-between;
     align-items: center;
     height: 1000px;
-    background: url(images/Background.svg)  50% 0% no-repeat;
+    background: url(../images/Background.svg)  50% 0% no-repeat;
     z-index: -1;
 }
 
@@ -259,7 +259,7 @@ span.heading2{
     flex-direction: column;
     justify-content: center;
     padding-top: 100px;
-    background: url(images/analyticsAndFeatures_background.png) 50% 0% no-repeat;
+    background: url(../images/analyticsAndFeatures_background.png) 50% 0% no-repeat;
     margin-bottom: 100px;
     border-bottom: 1px solid rgb(180, 180, 180);
 }
@@ -426,7 +426,7 @@ li.target span::before{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(images/Integration.png) 50% 50% no-repeat;
+    background: url(../images/Integration.png) 50% 50% no-repeat;
     margin-top: 100px;
     min-height: 650px;
 }
@@ -538,7 +538,7 @@ li.target span::before{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background: url(images/backg_price.png) 50% 0% no-repeat;
+    background: url(../images/backg_price.png) 50% 0% no-repeat;
     padding-top: 150px;
 }
 
