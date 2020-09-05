@@ -369,7 +369,7 @@ span.heading2{
     flex-direction: column;
     justify-content: start;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 .collaborate-screen{
@@ -460,6 +460,7 @@ li.target span::before{
     justify-content: center;
     align-items: center;
     text-align: center;
+    max-width: 40%;
 }
 
 .reviews-screen{
@@ -481,7 +482,7 @@ li.target span::before{
 .company-block.review{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -692,7 +693,7 @@ span.heading{
     text-align: left;
 }
 
-@media (max-width: 1023px){
+@media (max-width: 1024px){
     .features-item{
         flex-basis: 40%;
     }
@@ -715,6 +716,10 @@ span.heading{
     border: 2px solid white;
     border-radius: 8px;
     }
+
+    .company-block.review img{
+        max-width: 15%;
+    }
 }
 
 @media (max-width: 768px){
@@ -724,7 +729,7 @@ span.heading{
     .description-block.analytics{
         justify-content: flex-start;
         align-items: flex-start;
-        text-align: center;
+        text-align: left;
     }
 
     .description-block.analytics.in-item{
@@ -733,10 +738,6 @@ span.heading{
 
     .image-block.collaborate img{
         max-width: 300px;
-    }
-    
-    .company-block.review img{
-        max-width: 15%;
     }
 
     .company-block.review{
